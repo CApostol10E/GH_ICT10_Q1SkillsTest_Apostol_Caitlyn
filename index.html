@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Skills Test</title>
+</head>
+<body>
+    <form>
+        <label>Carbonara</label>
+        <input type="checkbox" id="menu1" value=150.55><br>
+        <label>Pizza</label>
+        <input type="checkbox" id="menu2" value=96.20><br>
+        <label>Water</label>
+        <input type="checkbox" id="menu3" value=74.50><br>
+        <label>Fried Chicken</label>
+        <input type="checkbox" id="menu4" value=67.76><br>
+        <label>Pizza</label>
+        <input type="checkbox" id="menu5" value=58.29><br>
+        <label>Water</label>
+        <input type="checkbox" id="menu6" value=48.52><br>
+        <input type="button" value="Order Now!!" py-click="ordering_form"></input>
+    </form>
+    <div id="output"></div>
+    <form>
+        <label>Customer Information:</label><br>
+        <select id="you"><label>Customer Information:</label>
+        <input type="text" id="Caitlyn Apostol" placeholder="enter your first name"><br>
+        <input type="text" id="contact number" placeholder="please enter your contact number"><br> 
+        <input type="text" id="food" placeholder="enter your orders"><br>
+        <input type="text" id="address" placeholder="pls enter your address"><br>
+        
+        
+    </form>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
